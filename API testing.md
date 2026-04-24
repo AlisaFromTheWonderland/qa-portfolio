@@ -100,3 +100,44 @@ Testing focus:
   "email": "test.recipient1@test.com",
   "password": "Password1!"
 }
+```
+
+# API Test Cases
+
+## Positive Test Cases
+
+---
+
+## TC-POS-01 — Register recipient with valid data
+
+| Field | Value |
+|---|---|
+| **Priority** | High |
+| **Tags** | `api`, `positive`, `registration` |
+| **Endpoint** | `/register-recipient/` |
+| **Method** | `POST` |
+| **Scenario Type** | Positive |
+
+**Preconditions**
+- API is available
+- User is not registered yet
+
+**Steps**
+1. Send a `POST` request with valid recipient data.
+2. Attach required documents if supported by the endpoint.
+
+**Expected Status Code**  
+`201 Created`
+
+**Expected Result**  
+The user is successfully created and receives the status **"Pending confirmation"**.
+
+**Request Body Example**
+```json
+{
+  "name": "testrecipient1",
+  "phone": "+380501234500",
+  "email": "test.recipient1@test.com",
+  "password": "Password1!"
+}
+```
