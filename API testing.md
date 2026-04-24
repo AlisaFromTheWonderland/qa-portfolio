@@ -17,8 +17,6 @@
 
 # Positive Test Cases
 
----
-
 ## TC-POS-01 — Register recipient with valid data
 
 | Field | Value |
