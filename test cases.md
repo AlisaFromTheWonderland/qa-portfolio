@@ -3,12 +3,6 @@
 **Test Level:** Functional  
 **Test Design Techniques:** Positive, Negative, Validation, Role-based testing
 
-# Registration Test Cases
-
----
-
-## Table of Contents
-
 - [Test Data](#test-data)
 - [Test Cases](#test-cases)
   - [FE-REG-01 — Successful user registration with valid data](#fe-reg-01--successful-user-registration-with-valid-data)
@@ -19,7 +13,7 @@
 
 ---
 
-## Test Data
+# Test Data
 
 | Field | Example Value |
 |---|---|
@@ -33,9 +27,7 @@
 
 ---
 
-## Test Cases
-
----
+# Test Cases
 
 ## FE-REG-01 — Successful user registration with valid data
 
