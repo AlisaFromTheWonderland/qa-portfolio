@@ -1,10 +1,5 @@
 # API Testing Portfolio
 
-> A curated set of representative API test cases covering core user and collect management flows.  
-> This document demonstrates validation coverage, authentication, authorization, CRUD behavior, and business rule verification.
-
----
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -19,7 +14,7 @@
   - [TC-POS-03 — Get current user data](#tc-pos-03--get-current-user-data)
   - [TC-POS-04 — Create a new collect with valid data](#tc-pos-04--create-a-new-collect-with-valid-data)
   - [TC-POS-07 — Partially update collect data](#tc-pos-07--partially-update-collect-data)
-- [Negative API Test Cases](#negative-api-test-cases)
+- [Negative Test Cases](#Negative-Test-Cases)
   - [TC-NEG-01 — Register recipient with empty request body](#tc-neg-01--register-recipient-with-empty-request-body)
   - [TC-NEG-05 — Register recipient with duplicate email](#tc-neg-05--register-recipient-with-duplicate-email)
   - [TC-NEG-07 — Login with incorrect password](#tc-neg-07--login-with-incorrect-password)
