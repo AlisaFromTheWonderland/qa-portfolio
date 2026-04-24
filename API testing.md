@@ -266,6 +266,9 @@ The collect is updated successfully and changes are saved.
   "contact_number": "+380991234567"
 }
 ```
+---
+
+## Negative Test Cases
 
 ## TC-NEG-01 — Register recipient with empty request body
 
