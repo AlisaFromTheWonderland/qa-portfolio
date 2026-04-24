@@ -169,6 +169,7 @@ Total fee
 
 Note:
 In the provided source text, the fee was written as **12.86**, but based on the formula and amounts shown, the mathematically correct total is **10.70 CHF**.
+
 ---
 
 ## 6. Amount Remaining After Deducting Fees
