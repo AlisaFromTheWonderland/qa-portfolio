@@ -5,34 +5,17 @@
 
 # Registration Test Cases
 
-A curated set of **5 representative manual test cases** covering the most important flows of the registration and authentication module.
-
 ---
 
 ## Table of Contents
 
-- [Scope](#scope)
 - [Test Data](#test-data)
-- [Priority Legend](#priority-legend)
-- [Tags Used](#tags-used)
 - [Test Cases](#test-cases)
   - [FE-REG-01 — Successful user registration with valid data](#fe-reg-01--successful-user-registration-with-valid-data)
   - [FE-REG-02 — Email validation during registration](#fe-reg-02--email-validation-during-registration)
   - [FE-REG-09 — Missing document upload (volunteer / recipient)](#fe-reg-09--missing-document-upload-volunteer--recipient)
   - [FE-REG-11 — User approval by administrator](#fe-reg-11--user-approval-by-administrator)
   - [FE-REG-14 — Login with valid credentials](#fe-reg-14--login-with-valid-credentials)
-
----
-
-## Scope
-
-This document covers the most important functional areas of the module:
-
-- user registration
-- field validation
-- role-based document requirements
-- administrator verification flow
-- login flow
 
 ---
 
@@ -47,27 +30,6 @@ This document covers the most important functional areas of the module:
 | Valid Password | QaTest123! |
 | Roles | Volunteer / Donor / Driver / Recipient |
 | Document Example | volunteer_id.jpg / idp_certificate.pdf |
-
-> Test data can be adjusted depending on the test environment and validation rules.
-
----
-
-## Priority Legend
-
-- **High** — critical core functionality, blocks the main user flow
-- **Medium** — important behavior, but not system-blocking
-- **Low** — supportive or informational functionality
-
----
-
-## Tags Used
-
-- `registration`
-- `validation`
-- `documents`
-- `admin-verification`
-- `login`
-- `roles`
 
 ---
 
