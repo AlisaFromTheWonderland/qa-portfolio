@@ -41,3 +41,27 @@ Postman Collection
 └── Reg/Auth v2
 ```
 
+| Method | Endpoint                 | Purpose                             |
+| ------ | ------------------------ | ----------------------------------- |
+| POST   | `/register-recipient/`   | Register a new recipient            |
+| POST   | `/login/`                | Authenticate user and receive token |
+| GET    | `/current-user/`         | Retrieve current authenticated user |
+| POST   | `/register-collect/`     | Create a new collect                |
+| GET    | `/collects/`             | Get all collects                    |
+| GET    | `/collect/{collect_id}/` | Get collect details by ID           |
+| PATCH  | `/collect/{collect_id}/` | Partially update collect            |
+| PUT    | `/collect/{collect_id}/` | Fully update collect                |
+| DELETE | `/collect/{collect_id}/` | Delete collect                      |
+
+### Request body handling
+```json
+{
+  "full_name": "testrecipient2",
+  "phone": "+380501234500",
+  "user": {
+    "email": "test.recipient2@test.com",
+    "password": "Password1!",
+    "confirm_password": "Password1!"
+  }
+}
+```
