@@ -24,22 +24,6 @@ In this project, Postman was used for:
 
 The collection is organized by feature/module, which follows Postman’s recommendation to group related requests in folders and subfolders. In the screenshot, the main working folder is **Recipient**, and it includes the core requests for registration, authentication, user retrieval, and collect management. :contentReference[oaicite:2]{index=2}
 
-### Example structure
-
-```text
-Postman Collection
-├── Recipient
-│   ├── POST   /register-recipient/
-│   ├── POST   /login/
-│   ├── GET    /current-user/
-│   ├── POST   /register-collect/
-│   ├── GET    /collects/
-│   ├── GET    /collect/{collect_id}/
-│   ├── PATCH  /collect/{collect_id}/
-│   ├── PUT    /collect/{collect_id}/
-│   └── DELETE /collect/{collect_id}/
-└── Reg/Auth v2
-```
 
 | Method | Endpoint                 | Purpose                             |
 | ------ | ------------------------ | ----------------------------------- |
@@ -65,3 +49,4 @@ Postman Collection
   }
 }
 ```
+<img width="888" height="343" alt="image" src="https://github.com/user-attachments/assets/9b67e20e-ed72-4304-9353-7c16e5f06cf8" />
