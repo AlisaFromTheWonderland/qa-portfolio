@@ -1,3 +1,8 @@
+**Module:** Registration / Authentication  
+**Platform:** Web  
+**Test Level:** Functional  
+**Test Design Techniques:** Positive, Negative, Validation, Role-based testing
+
 # Registration Test Cases
 
 A structured set of **manual test cases** covering the **registration, email confirmation, verification, and login flows** for a role-based platform.
