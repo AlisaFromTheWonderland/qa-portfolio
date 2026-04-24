@@ -141,3 +141,33 @@ The user is successfully created and receives the status **"Pending confirmation
   "password": "Password1!"
 }
 ```
+## TC-POS-02 — Login with valid credentials
+
+| Field | Value |
+|---|---|
+| **Priority** | High |
+| **Tags** | `api`, `positive`, `login`, `authentication` |
+| **Endpoint** | `/login/` |
+| **Method** | `POST` |
+| **Scenario Type** | Positive |
+
+**Preconditions**
+- User is registered
+- User has confirmed email
+
+**Steps**
+1. Send a `POST` request with the correct email and password.
+
+**Expected Status Code**  
+`200 OK`
+
+**Expected Result**  
+The API returns a valid authorization token (**JWT**).
+
+**Request Body Example**
+```json
+{
+  "email": "test.recipient1@test.com",
+  "password": "Password1!"
+}
+```
