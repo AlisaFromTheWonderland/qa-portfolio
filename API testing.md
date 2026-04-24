@@ -13,7 +13,7 @@
 - [Environment](#environment)
 - [Test Data](#test-data)
 - [Priority Legend](#priority-legend)
-- [Positive API Test Cases](#positive-api-test-cases)
+- [Positive Test Cases](#Positive-Test-Cases)
   - [TC-POS-01 — Register recipient with valid data](#tc-pos-01--register-recipient-with-valid-data)
   - [TC-POS-02 — Login with valid credentials](#tc-pos-02--login-with-valid-credentials)
   - [TC-POS-03 — Get current user data](#tc-pos-03--get-current-user-data)
