@@ -24,3 +24,32 @@
 **Expected Result**
 1. The **Start Date** field should be empty by default.
 2. The **Next** button should remain inactive.
+
+---
+
+## BUG-001 — App language is tied to App Store country instead of device language
+
+| Field | Value |
+|---|---|
+| **Bug ID** | BUG-001 |
+| **Title** | App language is tied to App Store country, not device language |
+| **Environment** | Device: iPhone 14<br>OS: iOS 26 (beta)<br>App: Prod build 5.3.2<br>Network: Wi-Fi |
+| **Severity** | Medium |
+| **Priority** | Medium |
+| **Status** | Open |
+
+**Preconditions**
+1. The App Store country/region is set to Poland.
+2. The device interface language is set to Ukrainian.
+3. The app is successfully installed on the device.
+
+**Steps to Reproduce**
+1. Open the app.
+
+**Expected Result**
+1. The app interface language matches the device interface language.
+2. There is an option to change the language.
+
+**Actual Result**
+1. The app interface language matches the App Store country/region language.
+2. There is no option to change the language.
