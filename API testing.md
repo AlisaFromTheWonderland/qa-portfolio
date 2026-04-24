@@ -52,6 +52,7 @@ The user is successfully created and receives the status **"Pending confirmation
   "password": "Password1!"
 }
 ```
+
 ---
 
 ## TC-POS-02 — Login with valid credentials
@@ -84,6 +85,7 @@ The API returns a valid authorization token (**JWT**).
   "password": "Password1!"
 }
 ```
+
 ---
 
 ## TC-POS-03 — Get current user data
@@ -108,6 +110,7 @@ The API returns a valid authorization token (**JWT**).
 
 **Expected Result**  
 The response returns the current authenticated user's data.
+
 ---
 
 ## TC-POS-04 — Create a new collect with valid data
@@ -145,6 +148,7 @@ A new collect is created with the status **"Under review"**.
   "contact_number": "+380501234567"
 }
 ```
+
 ---
 
 ## TC-POS-07 — Partially update collect data
@@ -184,11 +188,10 @@ The collect is updated successfully and changes are saved.
   "contact_number": "+380991234567"
 }
 ```
+
 ---
 
 # Negative Test Cases
-
----
 
 ## TC-NEG-01 — Register recipient with empty request body
 
@@ -212,6 +215,7 @@ The collect is updated successfully and changes are saved.
 
 **Expected Result**  
 Validation error is returned because required fields are missing.
+
 ---
 
 ## TC-NEG-05 — Register recipient with duplicate email
@@ -246,6 +250,7 @@ The API returns **"User with this email already exists"**.
   "password": "Password1!"
 }
 ```
+
 ---
 
 ## TC-NEG-07 — Login with incorrect password
@@ -278,6 +283,7 @@ The API returns **"Invalid credentials"**.
   "password": "Password2!"
 }
 ```
+
 ---
 
 ## TC-NEG-12 — Create collect when active collect limit is reached
@@ -302,6 +308,7 @@ The API returns **"Invalid credentials"**.
 
 **Expected Result**  
 The API returns **"Limit reached"**.
+
 ---
 
 ## TC-NEG-18 — Delete collect owned by another user
