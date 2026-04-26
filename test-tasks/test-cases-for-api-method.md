@@ -9,8 +9,6 @@ Content-Type: application/json
 Request: { user_name (req) str, payment_method (req) str possible values [Card|Bank|Cash], age int [1-100], credit boolean }
 Response: { user_id str, user_name, payment_method, age, credit }
 
-# API Test Cases — `POST /Create_User`
-
 | ID | Name | Data | Status Code | Response |
 |---|---|---|---|---|
 | TC01 | Valid request with payment_method `"Card"` | ```json\n{ "user_name": "Pokemon", "payment_method": "Card", "age": 2, "credit": true }\n``` | ✅ `200 OK` | ```json\n{ "user_id": "generated_id", "user_name": "Pokemon", "payment_method": "Card", "age": 2, "credit": true }\n``` |
