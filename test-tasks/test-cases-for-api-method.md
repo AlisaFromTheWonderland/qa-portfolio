@@ -11,7 +11,7 @@ Response: { user_id str, user_name, payment_method, age, credit }
 
 | ID | Name | Data | Status Code | Response |
 |---|---|---|---|---|
-| TC01 | Valid request with payment_method `"Card"` | ```json{ "user_name": "Pokemon", "payment_method": "Card", "age": 2, "credit": true }``` | ✅ `200 OK` | ```json\n{ "user_id": "generated_id", "user_name": "Pokemon", "payment_method": "Card", "age": 2, "credit": true }\n``` |
+| TC01 | Valid request with payment_method `"Card"` | ```{ "user_name": "Pokemon", "payment_method": "Card", "age": 2, "credit": true }``` | ✅ `200 OK` | ```json\n{ "user_id": "generated_id", "user_name": "Pokemon", "payment_method": "Card", "age": 2, "credit": true }\n``` |
 | TC02 | Age > 100 | ```json\n{ "user_name": "Jerry", "payment_method": "Bank", "age": 102, "credit": false }\n``` | ❌ `400 Bad Request` | ```json\n{ "error": "age must be between 1 and 100" }\n``` |
 | TC03 | Invalid `user_name` type | ```json\n{ "user_name": 123, "payment_method": "Cash", "age": 30, "credit": false }\n``` | ❌ `400 Bad Request` | ```json\n{ "error": "user_name must be string" }\n``` |
 | TC04 | Invalid `payment_method` | ```json\n{ "user_name": "Pikachu", "payment_method": "ApplePay", "age": 20, "credit": true }\n``` | ❌ `400 Bad Request` | ```json\n{ "error": "Invalid payment_method" }\n``` |
