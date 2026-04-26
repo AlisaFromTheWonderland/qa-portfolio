@@ -28,8 +28,6 @@ The request was intercepted and analyzed using **Charles Proxy**.
 | **Protocol** | `HTTP/2.0` |
 | **SSL** | `TLSv1.3 (TLS_AES_256_GCM_SHA384)` |
 
----
-
 ## Request Body
 
 ```json
@@ -115,8 +113,6 @@ The request was intercepted and analyzed using **Charles Proxy**.
 }
 ```
 
----
-
 ## Timing
 
 | Stage | Time |
@@ -134,3 +130,19 @@ Details
 - DNS: –
 - Connect: –
 - TLS Handshake: –
+
+## Speed
+
+| Metric | Value |
+|---|---|
+| Overall Speed | 2.57 KB/s |
+| Request Speed | 149.00 KB/s |
+| Response Speed | 141.20 KB/s |
+
+## Data Size
+
+| Field | Value |
+|---|---|
+| Request | 298 bytes |
+| Response | 706 bytes |
+| Total | 1.00 KB (1,004 bytes) |
