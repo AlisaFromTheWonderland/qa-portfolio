@@ -115,4 +115,22 @@ The request was intercepted and analyzed using **Charles Proxy**.
 }
 ```
 
+---
 
+## Timing
+
+| Stage | Time |
+|---|---|
+| Request Start Time | 2025-08-28 18:29:36 |
+| Request End Time | 2025-08-28 18:29:36 |
+| Response Start Time | 2025-08-28 18:29:37 |
+| Response End Time | 2025-08-28 18:29:37 |
+| Total Duration | 390 ms |
+
+Details
+- Request: 2 ms
+- Response: 5 ms
+- Latency: 383 ms
+- DNS: –
+- Connect: –
+- TLS Handshake: –
