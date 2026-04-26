@@ -1,4 +1,4 @@
-# Task 1 — Intercept Reminder Creation Request in Habit
+# Intercept Reminder Creation Request in Habit
 
 ## Objective
 
@@ -20,7 +20,7 @@ The request was intercepted and analyzed using **Charles Proxy**.
 
 | Field | Value |
 |---|---|
-| **URL** | `https://ultiself.com/api/commands/reminders` |
+| **URL** | `https://siteadress.com/api/commands/reminders` |
 | **Method** | `POST` |
 | **Status** | Complete |
 | **Response Code** | `200 OK` |
